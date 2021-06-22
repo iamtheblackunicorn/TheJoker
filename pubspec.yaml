@@ -1,0 +1,19 @@
+name: joker
+description: Be naughty with Austrian phone numbers!
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+flutter:
+  generate: true
+  uses-material-design: true
+  fonts:
+    - family: PSB
+      fonts:
+         - asset: assets/fonts/PSB.ttf
